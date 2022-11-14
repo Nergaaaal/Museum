@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD74FC3028F6C7C400529A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74FC2F28F6C7C400529A42 /* AppDelegate.swift */; };
+		BD74FC3228F6C7C400529A42 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BD74FC3128F6C7C400529A42 /* art.scnassets */; };
+		BD74FC3428F6C7C400529A42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74FC3328F6C7C400529A42 /* ViewController.swift */; };
+		BD74FC3728F6C7C400529A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD74FC3528F6C7C400529A42 /* Main.storyboard */; };
+		BD74FC3928F6C7C500529A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD74FC3828F6C7C500529A42 /* Assets.xcassets */; };
+		BD74FC3C28F6C7C500529A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD74FC3A28F6C7C500529A42 /* LaunchScreen.storyboard */; };
+		BD74FC4628F6C7C500529A42 /* Museum_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74FC4528F6C7C500529A42 /* Museum_2Tests.swift */; };
+		BD74FC5028F6C7C500529A42 /* Museum_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74FC4F28F6C7C500529A42 /* Museum_2UITests.swift */; };
+		BD74FC5228F6C7C500529A42 /* Museum_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74FC5128F6C7C500529A42 /* Museum_2UITestsLaunchTests.swift */; };
+		BD801E8828FDB0CC0026A22F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD801E8728FDB0CC0026A22F /* Home.swift */; };
+		BD801E8A28FDB0DE0026A22F /* Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD801E8928FDB0DE0026A22F /* Save.swift */; };
+		BD801E8C28FDB0F20026A22F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD801E8B28FDB0F20026A22F /* Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD74FC4228F6C7C500529A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD74FC2428F6C7C400529A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD74FC2B28F6C7C400529A42;
+			remoteInfo = "Museum-2";
+		};
+		BD74FC4C28F6C7C500529A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD74FC2428F6C7C400529A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD74FC2B28F6C7C400529A42;
+			remoteInfo = "Museum-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD74FC2C28F6C7C400529A42 /* Museum-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Museum-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD74FC2F28F6C7C400529A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD74FC3128F6C7C400529A42 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		BD74FC3328F6C7C400529A42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD74FC3628F6C7C400529A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD74FC3828F6C7C500529A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD74FC3B28F6C7C500529A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD74FC4128F6C7C500529A42 /* Museum-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Museum-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD74FC4528F6C7C500529A42 /* Museum_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum_2Tests.swift; sourceTree = "<group>"; };
+		BD74FC4B28F6C7C500529A42 /* Museum-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Museum-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD74FC4F28F6C7C500529A42 /* Museum_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum_2UITests.swift; sourceTree = "<group>"; };
+		BD74FC5128F6C7C500529A42 /* Museum_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD801E8728FDB0CC0026A22F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BD801E8928FDB0DE0026A22F /* Save.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Save.swift; sourceTree = "<group>"; };
+		BD801E8B28FDB0F20026A22F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD74FC2928F6C7C400529A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD74FC3E28F6C7C500529A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD74FC4828F6C7C500529A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD74FC2328F6C7C400529A42 = {
+			isa = PBXGroup;
+			children = (
+				BD74FC2E28F6C7C400529A42 /* Museum-2 */,
+				BD74FC4428F6C7C500529A42 /* Museum-2Tests */,
+				BD74FC4E28F6C7C500529A42 /* Museum-2UITests */,
+				BD74FC2D28F6C7C400529A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD74FC2D28F6C7C400529A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD74FC2C28F6C7C400529A42 /* Museum-2.app */,
+				BD74FC4128F6C7C500529A42 /* Museum-2Tests.xctest */,
+				BD74FC4B28F6C7C500529A42 /* Museum-2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD74FC2E28F6C7C400529A42 /* Museum-2 */ = {
+			isa = PBXGroup;
+			children = (
+				BD74FC2F28F6C7C400529A42 /* AppDelegate.swift */,
+				BD74FC3128F6C7C400529A42 /* art.scnassets */,
+				BD74FC3328F6C7C400529A42 /* ViewController.swift */,
+				BD801E8728FDB0CC0026A22F /* Home.swift */,
+				BD801E8928FDB0DE0026A22F /* Save.swift */,
+				BD801E8B28FDB0F20026A22F /* Settings.swift */,
+				BD74FC3528F6C7C400529A42 /* Main.storyboard */,
+				BD74FC3828F6C7C500529A42 /* Assets.xcassets */,
+				BD74FC3A28F6C7C500529A42 /* LaunchScreen.storyboard */,
+			);
+			path = "Museum-2";
+			sourceTree = "<group>";
+		};
+		BD74FC4428F6C7C500529A42 /* Museum-2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD74FC4528F6C7C500529A42 /* Museum_2Tests.swift */,
+			);
+			path = "Museum-2Tests";
+			sourceTree = "<group>";
+		};
+		BD74FC4E28F6C7C500529A42 /* Museum-2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD74FC4F28F6C7C500529A42 /* Museum_2UITests.swift */,
+				BD74FC5128F6C7C500529A42 /* Museum_2UITestsLaunchTests.swift */,
+			);
+			path = "Museum-2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD74FC2B28F6C7C400529A42 /* Museum-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD74FC5528F6C7C500529A42 /* Build configuration list for PBXNativeTarget "Museum-2" */;
+			buildPhases = (
+				BD74FC2828F6C7C400529A42 /* Sources */,
+				BD74FC2928F6C7C400529A42 /* Frameworks */,
+				BD74FC2A28F6C7C400529A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Museum-2";
+			productName = "Museum-2";
+			productReference = BD74FC2C28F6C7C400529A42 /* Museum-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD74FC4028F6C7C500529A42 /* Museum-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD74FC5828F6C7C500529A42 /* Build configuration list for PBXNativeTarget "Museum-2Tests" */;
+			buildPhases = (
+				BD74FC3D28F6C7C500529A42 /* Sources */,
+				BD74FC3E28F6C7C500529A42 /* Frameworks */,
+				BD74FC3F28F6C7C500529A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD74FC4328F6C7C500529A42 /* PBXTargetDependency */,
+			);
+			name = "Museum-2Tests";
+			productName = "Museum-2Tests";
+			productReference = BD74FC4128F6C7C500529A42 /* Museum-2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD74FC4A28F6C7C500529A42 /* Museum-2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD74FC5B28F6C7C500529A42 /* Build configuration list for PBXNativeTarget "Museum-2UITests" */;
+			buildPhases = (
+				BD74FC4728F6C7C500529A42 /* Sources */,
+				BD74FC4828F6C7C500529A42 /* Frameworks */,
+				BD74FC4928F6C7C500529A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD74FC4D28F6C7C500529A42 /* PBXTargetDependency */,
+			);
+			name = "Museum-2UITests";
+			productName = "Museum-2UITests";
+			productReference = BD74FC4B28F6C7C500529A42 /* Museum-2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD74FC2428F6C7C400529A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BD74FC2B28F6C7C400529A42 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					BD74FC4028F6C7C500529A42 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BD74FC2B28F6C7C400529A42;
+					};
+					BD74FC4A28F6C7C500529A42 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BD74FC2B28F6C7C400529A42;
+					};
+				};
+			};
+			buildConfigurationList = BD74FC2728F6C7C400529A42 /* Build configuration list for PBXProject "Museum-2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD74FC2328F6C7C400529A42;
+			productRefGroup = BD74FC2D28F6C7C400529A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD74FC2B28F6C7C400529A42 /* Museum-2 */,
+				BD74FC4028F6C7C500529A42 /* Museum-2Tests */,
+				BD74FC4A28F6C7C500529A42 /* Museum-2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD74FC2A28F6C7C400529A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD74FC3228F6C7C400529A42 /* art.scnassets in Resources */,
+				BD74FC3C28F6C7C500529A42 /* LaunchScreen.storyboard in Resources */,
+				BD74FC3928F6C7C500529A42 /* Assets.xcassets in Resources */,
+				BD74FC3728F6C7C400529A42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD74FC3F28F6C7C500529A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD74FC4928F6C7C500529A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD74FC2828F6C7C400529A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD801E8A28FDB0DE0026A22F /* Save.swift in Sources */,
+				BD74FC3428F6C7C400529A42 /* ViewController.swift in Sources */,
+				BD801E8828FDB0CC0026A22F /* Home.swift in Sources */,
+				BD74FC3028F6C7C400529A42 /* AppDelegate.swift in Sources */,
+				BD801E8C28FDB0F20026A22F /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD74FC3D28F6C7C500529A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD74FC4628F6C7C500529A42 /* Museum_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD74FC4728F6C7C500529A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD74FC5228F6C7C500529A42 /* Museum_2UITestsLaunchTests.swift in Sources */,
+				BD74FC5028F6C7C500529A42 /* Museum_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD74FC4328F6C7C500529A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD74FC2B28F6C7C400529A42 /* Museum-2 */;
+			targetProxy = BD74FC4228F6C7C500529A42 /* PBXContainerItemProxy */;
+		};
+		BD74FC4D28F6C7C500529A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD74FC2B28F6C7C400529A42 /* Museum-2 */;
+			targetProxy = BD74FC4C28F6C7C500529A42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD74FC3528F6C7C400529A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD74FC3628F6C7C400529A42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD74FC3A28F6C7C500529A42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD74FC3B28F6C7C500529A42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD74FC5328F6C7C500529A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD74FC5428F6C7C500529A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD74FC5628F6C7C500529A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6GD4T3TU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ant.Museum-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD74FC5728F6C7C500529A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6GD4T3TU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ant.Museum-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD74FC5928F6C7C500529A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6GD4T3TU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ant.Museum-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Museum-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Museum-2";
+			};
+			name = Debug;
+		};
+		BD74FC5A28F6C7C500529A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6GD4T3TU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ant.Museum-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Museum-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Museum-2";
+			};
+			name = Release;
+		};
+		BD74FC5C28F6C7C500529A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6GD4T3TU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ant.Museum-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Museum-2";
+			};
+			name = Debug;
+		};
+		BD74FC5D28F6C7C500529A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6GD4T3TU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ant.Museum-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Museum-2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD74FC2728F6C7C400529A42 /* Build configuration list for PBXProject "Museum-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD74FC5328F6C7C500529A42 /* Debug */,
+				BD74FC5428F6C7C500529A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD74FC5528F6C7C500529A42 /* Build configuration list for PBXNativeTarget "Museum-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD74FC5628F6C7C500529A42 /* Debug */,
+				BD74FC5728F6C7C500529A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD74FC5828F6C7C500529A42 /* Build configuration list for PBXNativeTarget "Museum-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD74FC5928F6C7C500529A42 /* Debug */,
+				BD74FC5A28F6C7C500529A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD74FC5B28F6C7C500529A42 /* Build configuration list for PBXNativeTarget "Museum-2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD74FC5C28F6C7C500529A42 /* Debug */,
+				BD74FC5D28F6C7C500529A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD74FC2428F6C7C400529A42 /* Project object */;
+}
